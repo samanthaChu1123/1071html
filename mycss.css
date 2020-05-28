@@ -1,0 +1,28 @@
+@charset "utf-8";
+body{background-color: skyblue}
+h1{text-align: center; position: relative; left: 50%; margin-left: -380px; width: 760px; background-color:blue; color: white; font-size: 40px}
+h2{font-size: 28px;border-style: border-top-style; margin-left: 100px; color:purple}
+p{font-size: 24px; margin-left: 100px}
+a{font-size: 24px; margin-left: 100px}
+p{font-size: 24px}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 400px) {
+  .column {
+    width: 80%;
+  }
+}
+
+img{margin-left: 100px}
